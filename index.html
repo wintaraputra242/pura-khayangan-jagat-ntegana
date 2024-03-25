@@ -1,0 +1,962 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Pura Khayangan Jagat Ntegana</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta content="" name="keywords" />
+    <meta content="" name="description" />
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="img/icon/logo-desa-darmasaba.jpg">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href=""
+      rel="stylesheet"
+    />
+
+    <!-- Icon Font Stylesheet -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+      rel="stylesheet"
+      
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet" />
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet" />
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <!-- Spinner Start -->
+    <div
+      id="spinner"
+      class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center"
+    >
+      <div
+        class="spinner-border text-primary"
+        style="width: 3rem; height: 3rem"
+        role="status"
+      >
+        <span class="sr-only">Loading...</span>
+      </div>
+    </div>
+    <!-- Spinner End -->
+
+    <!-- Navbar Start -->
+    <nav
+      class="navbar navbar-expand-lg bg-white navbar-light sticky-top py-lg-0 px-4 px-lg-5 wow fadeIn"
+      data-wow-delay="0.1s"
+    >
+      <a href="index.html" class="navbar-brand p-0">
+        <img class="img-fluid me-1 me-sm-3" src="img/icon/logo-desa-darmasaba.jpg" alt="Icon" />
+        <div class="text-title">
+          <h5 class="h5-1 m-0 text-primary" style="font-size: 22px">Pura Khayangan</h5>
+          <h5 class="h5-2 m-0 text-primary" style="color: #797878 !important;font-size: 16px">Khayangan Jagat Ntegana</h5>
+        </div>
+      </a>
+      <button
+        type="button"
+        class="navbar-toggler"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarCollapse"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse py-4 py-lg-0" id="navbarCollapse">
+        <div class="navbar-nav ms-auto">
+          <a href="index.html" class="nav-item nav-link active">Beranda</a>
+          <a href="keunikan.html" class="nav-item nav-link">Keunikan</a>
+          <div class="nav-item dropdown">
+            <a
+              href="#"
+              class="nav-link dropdown-toggle"
+              data-bs-toggle="dropdown"
+              >Galeri</a
+            >
+            <div class="dropdown-menu rounded-0 rounded-bottom m-0">
+              <a href="foto.html" class="dropdown-item">Foto</a>
+              <a href="video.html" class="dropdown-item">Video</a>
+              <!-- <a href="visiting.html" class="dropdown-item">Visiting Hours</a>
+              <a href="testimonial.html" class="dropdown-item">Pengembang</a>
+              <a href="404.html" class="dropdown-item">Update</a> -->
+            </div>
+          </div>
+          <a href="tentang.html" class="nav-item nav-link">Tentang</a>
+        </div>
+        <a href="vt.html" class="btn btn-primary"
+          >Virtual Tour<i class="fa fa-arrow-right ms-3"></i
+        ></a>
+      </div>
+    </nav>
+    <!-- Navbar End -->
+
+    <!-- Header Start -->
+    <div class="container-fluid bg-dark p-0 mb-5">
+      <div class="row g-0 flex-column-reverse flex-lg-row">
+        <div class="col-lg-12 p-0 wow fadeIn" data-wow-delay="0.1s">
+          <div
+            class="header-bg-index d-flex flex-column justify-content-center p-2 p-md-5"
+            style="position: relative;"
+          >
+            <!-- <video class="video-bg" src="img/Drone1.MP4" autoplay muted loop></video> -->
+            <div class="content-text">
+              <h1 class="display-4 text-center" style="color: rgba(255, 255, 255, 0.5);">
+                Pengenalan History <br> <span>Pura Khayangan <br class="space-text"> Jagat Ntegana</span>
+              </h1>
+              <div class="d-flex align-items-center pt-4 animated slideInDown" style="position: absolute; bottom: 30px; left: 30px;">
+                <!-- <a href="" class="btn btn-primary py-sm-3 px-3 px-sm-5 me-5"
+                  >Read More</a -->
+                <button
+                  type="button"
+                  class="btn-play"
+                  data-bs-toggle="modal"
+                  data-src="https://www.youtube.com/embed/EK3e6wa_x38?si=_hredB6_KeYgV8aT"
+                  data-bs-target="#videoModal"
+                >
+                  <span></span>
+                </button>
+                <h6 class="text-white m-0 ms-4 d-none d-sm-block">Video Dokumenter</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
+          <div class="owl-carousel header-carousel">
+            <div class="owl-carousel-item">
+              <img class="img-fluid" src="img/manik-corong3.jpg" alt="" />
+            </div>
+            <div class="owl-carousel-item">
+              <img class="img-fluid" src="img/manik-corong3.jpg" alt="" />
+            </div>
+            <div class="owl-carousel-item">
+              <img class="img-fluid" src="img/manik-corong2.jpg" alt="" />
+            </div>
+            <div class="owl-carousel-item">
+              <img class="img-fluid" src="img/manik-corong2.jpg" alt="" />
+            </div>
+          </div>
+        </div> -->
+      </div>
+    </div>
+    <!-- Header End -->
+
+
+    <!-- Video Modal Start -->
+    <div
+      class="modal modal-video fade"
+      id="videoModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content rounded-0">
+          <div class="modal-header">
+            <h3 class="modal-title" id="exampleModalLabel">Youtube Video</h3>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <!-- 16:9 aspect ratio -->
+            <div class="ratio ratio-16x9">
+              <iframe
+                class="embed-responsive-item"
+                src=""
+                id="video"
+                allowfullscreen
+                allowscriptaccess="always"
+                allow="autoplay"
+              ></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Video Modal End -->
+
+    <!-- About Start -->
+    <div class="container-l py-3">
+      <div class="container">
+        <div class="row g-5">
+          <div class="col-lg-7 wow fadeInUp" data-wow-delay="0.1s">
+            <p><span class="text-primary me-2">#</span>Pura Khayangan Jagat Ntegana</p>
+            <h5 class="display-6 mb-4">
+              Mengenal Sejarah
+              <span class="text-primary"><br> Pura Khayangan Jagat Ntegana</span> !
+            </h5>
+            <p class="mb-4" style="text-indent: 60px; text-align: justify;">
+                Cerita berikut ini diambil dari purana Pura Khayangan Jagat Ntegana pada zaman dahulu di jaman kedewatan ada kerajaan Purusada milik Maharaja Sek Sukaranti. Putra beliau, Maharaja Purasada, menikah dengan Dewi Kekasih dan mempunyai dua anak yaitu Sanghyang Jayenrana dan Shri Nuk Wasir. Shri Nuk Wasinida juga bergelar Sanghyang Durwasa dan memeluk agama Budha Kencana. Maharaja Sukaranti memiliki dua putra, yaitu Shri Nukruwa yang menjadi raja di wilayah Howan dan Shri Nuk Wasinida yang tinggi dan besar. Shri Wasininda pergi ke Pulau Bali dan terpesona oleh keberadaan kahyangan di sana. Pulau Bali menjadi tenang dan aman berkat kekuasaan beliau sebagai Maharaja Purusada. Beliau bersama dengan laskarnya dan para mentrinya dalam Kerajaan Purusada, termasuk patihnya Ki Dhemang Copong, pergi ke pulau tersebut. Pada suatu ketika, Maharaja Jayengrat ingin kembali ke alam niskala, namun patihnya, Ki Patih Dhemang Copong, ingin menjamah Dewi Manik Galih. Dewi Manik Galih menyadari niat jahat patihnya itu dan memutuskan untuk mengikutinya kembali ke alam niskala. Ketika masyarakat menyaksikan peristiwa ini, Maharaja Sukaranti marah dengan perilaku Ki Patih Dhemang Copong dan memaafkannya setelah ia memohon pengampunan. Lalu Ki Patih Dhemang Copong melemparkan diri ke dalam api suci dan abunya menghilang tanpa meninggalkan bekas. Dewi Manik Galih, yang menjadi arwah, terbang menuju alam nirwana yang tak terbayangkan..<br><span style="text-indent: 50px; display: block;">Maharaja Sukaranti dan pengiringnya, termasuk para mentri dari Purusada, pergi menuju Gunung Jambhu Dwipa karena Dewi Manik Galih pergi berdasarkan kehendak Ida Bhatara Guru. Maharaja Sukaranti memerintahkan pembuatan dua patung yang akan ditanam di sebuah candi. Setelah itu, mereka kembali ke Purusada. Dewi Manik Galih, yang tinggal di Wishnu loka dengan gelar Bhatari Dewi Shri Merti, menerima sabdha dari Bhatara Siwa untuk turun ke dunia sebagai dewa bhumi. Raja Purusada mendengar sabdha tersebut dan mengingat abunya Dewi Manik Galih, sehingga abunya diupacarai dan dibersihkan dengan air suci. Setelah itu, abunya dihanyutkan ke tengah lautan diiringi oleh rakyat dan mentri-mentri. Patung Dewi Manik Galih juga dimasukkan dalam lobang prasada. Maharaja Purusada memberi perintah kepada Ki Patih Dhemang Copong untuk mengiringi Dewi Manik Galih ke tengah lautan. Mereka berlayar menggunakan perahu Jong Bhiru. Di tengah lautan, Maharaja Sukaranti memperingatkan agar tidak ada hubungan asmara, terutama kepada putra nya, Shri Sukaranti. Namun, sebuah perahu terdampar sangat jauh ke timur karena melanggar pesan tersebut. Sabdha terdengar bahwa mereka harus membuat tempat pemujaan. Mereka tinggal di Bali dan membangun tempat pemujaan seperti Pura Khayangan Purusada, dewi Dewi Manik Galih dan Bhatara Saktri Jayengrat. Di sebelah timurnya, mereka membangun Pura Nteg Hana. Mereka juga membangun candi-candi untuk Bhatara Ntegana dan dewa-dewa lainnya yang dipimpin oleh Ki Dhemang Copong. Cerita berakhir dengan pembangunan Pura Kental Gumu dan banyak pura lainnya di Bali yang dipimpin oleh Ki Dhemang Copong.</span>
+            </p>
+            <!-- <h5 class="mb-3">
+              <a class="link-to-keunikan" href="about.html" style="color: #282f34;"><i class="far fa-check-circle text-primary me-3"></i>Kekembangan Daha Truna</a>
+            </h5>
+            <h5 class="mb-3">
+              <a class="link-to-keunikan" href="about.html" style="color: #282f34;"><i class="far fa-check-circle text-primary me-3"></i>Tradisi Lampad</a>
+            </h5> -->
+            <!-- <h5 class="mb-3">
+              <i class="far fa-check-circle text-primary me-3"></i>Arsitektur Bangunan Unik
+            </h5>
+            <h5 class="mb-3">
+              <i class="far fa-check-circle text-primary me-3"></i>Sejarah
+            </h5> -->
+            <a class="btn btn-primary py-3 px-5 mt-3" href="keunikan.html">Baca Selengkapnya</a>
+          </div>
+          <div class="col-lg-5 wow fadeInUp" data-wow-delay="0.5s">
+            <div class="img-border">
+              <img class="" src="img/_DEK0480.JPG" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- About End -->
+
+    <!-- Facts Start -->
+    <div
+      class="container-xxl facts my-5 py-5 wow fadeInUp"
+      data-wow-delay="0.1s"
+    >
+      <div class="container py-5">
+        <div class="row g-4">
+          <div
+            class="col-md-6 col-lg-4 text-center wow fadeIn"
+            data-wow-delay="0.1s"
+          >
+            <i class="fa fa-users fa-3x text-white mb-3"></i>
+            <h1 class="text-white mb-2" data-toggle="counter-up">2967</h1>
+            <p class="text-white mb-0">Jumlah Penduduk</p>
+          </div>
+          <div
+            class="col-md-6 col-lg-4 text-center wow fadeIn"
+            data-wow-delay="0.3s"
+          >
+            <i class="fas fa-globe-americas fa-3x text-white mb-3"></i>
+            <h1 class="text-white mb-2" data-toggle="counter-up">1.68</h1>
+            <p class="text-white mb-0">Luas Wilayah (km)</p>
+          </div>
+          <!-- <div
+            class="col-md-6 col-lg-4 text-center wow fadeIn"
+            data-wow-delay="0.5s"
+          >
+          <i class="fas fa-pen-fancy fa-3x text-white mb-3"></i>
+            <h1 class="text-white mb-2" data-toggle="counter-up">150</h1>
+            <p class="text-white mb-0">Jumlah Kekembangan</p>
+          </div> -->
+          <div
+            class="col-md-6 col-lg-4 text-center wow fadeIn"
+            data-wow-delay="0.7s"
+          >
+            <i class="fas fa-leaf fa-3x text-white mb-3"></i>
+            <h1 class="text-white mb-2" data-toggle="counter-up">1975</h1>
+            <p class="text-white mb-0">Tahun Berdiri Pura</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Animal Start -->
+    <div class="container-l py-3">
+      <div class="container">
+        <div
+          class="row g-20 mb-5 align-items-end wow fadeInUp"
+          data-wow-delay="0.1s"
+        >
+          <div class="col-lg-8">
+            <p><span class="text-primary me-2">#</span>View Pura Khayangan Jagat Ntegana</p>
+            <h1 class="display-6 mb-4">
+              <span class="text-primary">Dokumentasi</span> <br>Pura Penataran Khayangan Jagat Ntegana <br> 
+            </h1>
+          </div>
+          <div class="col-lg-4 text-lg-end">
+            <a class="btn btn-primary py-3 px-5" href="foto.html"
+              >Lihat Foto Lainnya</a
+            >
+          </div>
+        </div>
+        <div class="row g-4">
+          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="row g-4">
+              <div class="col-12">
+                <a
+                  class="animal-item"
+                  href="img/_DEK0446.JPG"
+                  data-lightbox="animal"
+                >
+                  <div class="position-relative">
+                    <img class="img-fluid" src="img/_DEK0446.JPG" alt="" />
+                    <div class="animal-text p-4">
+                      <p class="text-white small text-uppercase mb-0">View</p>
+                      <h5 class="text-white mb-0">Arca Mpu Baradah</h5>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="col-12">
+                <a
+                  class="animal-item"
+                  href="img/_DEK0466.JPG"
+                  data-lightbox="animal"
+                >
+                  <div class="position-relative">
+                    <img class="img-fluid" src="img/_DEK0466.JPG" alt="" />
+                    <div class="animal-text p-4">
+                      <p class="text-white small text-uppercase mb-0">Album Foto</p>
+                      <h5 class="text-white mb-0">Gentong Keramik Cina</h5>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+            <div class="row g-4">
+              <div class="col-12">
+                <a
+                  class="animal-item"
+                  href="img/_DEK0449.JPG"
+                  data-lightbox="animal"
+                >
+                  <div class="position-relative">
+                    <img class="img-fluid" src="img/_DEK0449.JPG" alt="" />
+                    <div class="animal-text p-4">
+                      <p class="text-white small text-uppercase mb-0">Album</p>
+                      <h5 class="text-white mb-0">Bale Gambelan</h5>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="col-12">
+                <a
+                  class="animal-item"
+                  href="img/_DEK0453.JPG"
+                  data-lightbox="animal"
+                >
+                  <div class="position-relative">
+                    <img class="img-fluid" src="img/_DEK0453.JPG" alt="" />
+                    <div class="animal-text p-4">
+                      <p class="text-white small text-uppercase mb-0">Album Foto</p>
+                      <h5 class="text-white mb-0">Relief Ukiran Arca Ganesha</h5>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+            <div class="row g-4">
+              <div class="col-12">
+                <a
+                  class="animal-item"
+                  href="img/_DEK0451.JPG"
+                  data-lightbox="animal"
+                >
+                  <div class="position-relative">
+                    <img class="img-fluid" src="img/_DEK0451.JPG" alt="" />
+                    <div class="animal-text p-4">
+                      <p class="text-white small text-uppercase mb-0">View</p>
+                      <h5 class="text-white mb-0">Arca Ratu Ayu</h5>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="col-12">
+                <a
+                  class="animal-item"
+                  href="img/_DEK0452.JPG"
+                  data-lightbox="animal"
+                >
+                  <div class="position-relative">
+                    <img class="img-fluid" src="img/_DEK0452.JPG" alt="" />
+                    <div class="animal-text p-4">
+                      <p class="text-white small text-uppercase mb-0">Album Photo</p>
+                      <h5 class="text-white mb-0">Bale Mendak Sari</h5>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          
+          <!-- <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="row g-4">
+              <div class="col-12">
+                <a
+                  class="animal-item"
+                  href="img/candi.jpg"
+                  data-lightbox="animal"
+                >
+                  <div class="position-relative">
+                    <img class="img-fluid" src="img/candi.jpg" alt="" />
+                    <div class="animal-text p-4">
+                      <p class="text-white small text-uppercase mb-0">View</p>
+                      <h5 class="text-white mb-0">Candi Tebing Kerobokan</h5>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="col-12">
+                <a
+                  class="animal-item"
+                  href="img/barong.jpg"
+                  data-lightbox="animal"
+                >
+                  <div class="position-relative">
+                    <img class="img-fluid" src="img/barong.jpg" alt="" />
+                    <div class="animal-text p-4">
+                      <p class="text-white small text-uppercase mb-0">Album Photo</p>
+                      <h5 class="text-white mb-0">Pelaksanaan Calonarang</h5>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div> -->
+          <!-- <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+            <div class="row g-4">
+              <div class="col-12">
+                <a
+                  class="animal-item"
+                  href="img/wali-ajus1.jpg"
+                  data-lightbox="animal"
+                >
+                  <div class="position-relative">
+                    <img class="img-fluid" src="img/wali-ajus1.jpg" alt="" />
+                    <div class="animal-text p-4">
+                      <p class="text-white small text-uppercase mb-0">Album Photo</p>
+                      <h5 class="text-white mb-0">Wali & Ajus</h5>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="col-12">
+                <a
+                  class="animal-item"
+                  href="img/pura-manik-corong.jpg"
+                  data-lightbox="animal"
+                >
+                  <div class="position-relative">
+                    <img class="img-fluid" src="img/pura-manik-corong.jpg" alt="" />
+                    <div class="animal-text p-4">
+                      <p class="text-white small text-uppercase mb-0">View</p>
+                      <h5 class="text-white mb-0">Pura Manik Corong</h5>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div> -->
+          <!-- <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+            <div class="row g-4">
+              <div class="col-12">
+                <a
+                  class="animal-item"
+                  href="img/pura-manik-corong.jpg"
+                  data-lightbox="animal"
+                >
+                  <div class="position-relative">
+                    <img class="img-fluid" src="img/pura-manik-corong.jpg" alt="" />
+                    <div class="animal-text p-4">
+                      <p class="text-white small text-uppercase mb-0">View</p>
+                      <h5 class="text-white mb-0">Pura Manik Corong</h5>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="col-12">
+                <a
+                  class="animal-item"
+                  href="img/sawah2.jpg"
+                  data-lightbox="animal"
+                >
+                  <div class="position-relative">
+                    <img class="img-fluid" src="img/sawah2.jpg" alt="" />
+                    <div class="animal-text p-4">
+                      <p class="text-white small text-uppercase mb-0">View</p>
+                      <h5 class="text-white mb-0">Sawah Di Desa Sumita</h5>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div> -->
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Animal End -->
+
+    <!-- Visiting Hours Start -->
+    <!-- <div
+      class="container-xxl bg-primary visiting-hours my-5 py-5 wow fadeInUp"
+      data-wow-delay="0.1s"
+    >
+      <div class="container py-5">
+        <div class="row g-5">
+          <div class="col-md-6 wow fadeIn" data-wow-delay="0.3s">
+            <h1 class="display-6 text-white mb-5">Visiting Hours</h1>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">
+                <span>Monday</span>
+                <span>7:00AM - 6:00PM</span>
+              </li>
+              <li class="list-group-item">
+                <span>Tuesday</span>
+                <span>7:00AM - 6:00PM</span>
+              </li>
+              <li class="list-group-item">
+                <span>Wednesday</span>
+                <span>7:00AM - 6:00PM</span>
+              </li>
+              <li class="list-group-item">
+                <span>Thursday</span>
+                <span>7:00AM - 6:00PM</span>
+              </li>
+              <li class="list-group-item">
+                <span>Friday</span>
+                <span>7:00AM - 6:00PM</span>
+              </li>
+              <li class="list-group-item">
+                <span>Saturday</span>
+                <span>7:00AM - 6:00PM</span>
+              </li>
+              <li class="list-group-item">
+                <span>Sunday</span>
+                <span>Closed</span>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-6 text-light wow fadeIn" data-wow-delay="0.5s">
+            <h1 class="display-6 text-white mb-5">Contact Info</h1>
+            <table class="table">
+              <tbody>
+                <tr>
+                  <td>Kantor Perbekel Desa Sumita</td>
+                  <td>Sumita, Kec. Gianyar, Kabupaten Gianyar, Bali 80515</td>
+                </tr>
+                <tr>
+                  <td>Location</td>
+                  <td>
+                    <p class="mb-2">-8.478082, 115.305962</p>
+                    <p class="mb-0">Sumita,Kec. Gianyar, Kabupaten Gianyar, Bali</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>Ticket</td>
+                  <td>
+                    <p class="mb-2">Free Entry !!</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>Support</td>
+                  <td>
+                    <p class="mb-2">+012 345 6789</p>
+                    <p class="mb-0">kkntdesa10sumita@gmail.com</p>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+    <-- Visiting Hours End -->
+
+    <!-- Membership Start -->
+    <!-- <div class="container-xxl py-5">
+      <div class="container">
+        <div
+          class="row g-5 mb-5 align-items-end wow fadeInUp"
+          data-wow-delay="0.1s"
+        >
+          <div class="col-lg-6">
+            <p><span class="text-primary me-2">#</span>Destination's</p>
+            <h1 class="display-5 mb-0">
+              Chose Your Destination in Sumita 
+              <span class="text-primary">village</span>
+            </h1>
+          </div>
+          <div class="col-lg-6 text-lg-end">
+            <a class="btn btn-primary py-3 px-5" href="">Explore now!</a>
+          </div>
+        </div>
+        <div class="row g-4">
+          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="membership-item position-relative">
+              <img class="img-fluid" src="img/ajus-wali.jpg" alt="" />
+              <h1 class="display-1">01</h1>
+              <h3 class="text-white mb-3"> Explore Candi Tebing Kerobokan </h3>
+              <h5 class="text-primary mb-4">In the south of the village</h5>
+              <p><i class="fa fa-check text-primary me-3"></i>Historical destination</p>
+              <p>
+                <i class="fa fa-check text-primary me-3"></i>Natural river
+              </p>
+              <p>
+                <i class="fa fa-check text-primary me-3"></i>Beautifull landscape
+              </p>
+              <a class="btn btn-outline-light px-4 mt-3" href="">Get Started</a>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+            <div class="membership-item position-relative">
+              <img class="img-fluid" src="img/desa.jpg" alt="" />
+              <h1 class="display-1">02</h1>
+              <h3 class="text-white mb-3">Explore Traditional Balinese House</h3>
+              <h5 class="text-primary mb-4">Visiting Balinese carving craftsmen</h5>
+              <p><i class="fa fa-check text-primary me-3"></i>learn how to carve balinese style</p>
+              <p>
+                <i class="fa fa-check text-primary me-3"></i>Visit traditional Balinese houses
+              </p>
+              <p>
+                <i class="fa fa-check text-primary me-3"></i>Free animal
+                exhibition
+              </p>
+              <a class="btn btn-outline-light px-4 mt-3" href="">Get Started</a>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+            <div class="membership-item position-relative">
+              <img class="img-fluid" src="img/manik-corong3.jpg" alt="" />
+              <h1 class="display-1">03</h1>
+              <h3 class="text-white mb-3">Explore Manik Corong Temple</h3>
+              <h5 class="text-primary mb-4">On the access road candi tebing</h5>
+              <p><i class="fa fa-check text-primary me-3"></i>Historical destination</p>
+              <p>
+                <i class="fa fa-check text-primary me-3"></i>Visit Balinese temple
+              </p>
+              <p>
+                <i class="fa fa-check text-primary me-3"></i>learn about Balinese culture
+              </p>
+              <a class="btn btn-outline-light px-4 mt-3" href="">Get Started</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> -->
+    <!-- Membership End -->
+
+    <!-- Testimonial Start -->
+    <div class="container-xxl py-5">
+      <div class="container">
+        <h1
+          class="display-5 text-center mb-5 wow fadeInUp"
+          data-wow-delay="0.1s"
+        >
+          TOKOH MASYARAKAT <br>Pura Khayangan Jagat Ntegana
+        </h1>
+        <div
+          class="owl-carousel testimonial-carousel wow fadeInUp"
+          data-wow-delay="0.1s"
+        >
+          <div class="testimonial-item text-center">
+            <img
+              class="img-fluid rounded-circle border border-2 p-2 mx-auto mb-4"
+              src="img/PROFILE/Jero Mangku.jpeg"
+              style="width: 100px; height: 100px"
+            />
+            <div class="testimonial-text rounded text-center p-4">
+              <p>
+                Pemangku Pura Khayangan Jagat Ntegana yang membantu dalam memberikan penjelasan mengenai sejarah, keunikan, dan tradisi yang ada di Pura Khayangan Jagat Ntegana.
+              </p>
+              <h5 class="mb-1">Si Gede Alit Dwipayana</h5>
+              <span class="fst-italic">Pemangku Pura Khayangan Jagat Ntegana</span>
+            </div>
+          </div>
+          <div class="testimonial-item text-center">
+            <img
+              class="img-fluid rounded-circle border border-2 p-2 mx-auto mb-4"
+              src="img/PROFILE/sudarsana.png"
+              style="width: 100px; height: 100px"
+            />
+            <div class="testimonial-text rounded text-center p-4">
+              <p>
+                Tokoh Masyarakat yang membantu memberikan informasi mengenai Pura Khayangan Jagat Ntegana.
+              </p>
+              <h5 class="mb-1">I Ketut Sudarsana</h5>
+              <span class="fst-italic">Tokoh Masyarakat</span>
+            </div>
+          </div>
+          <!-- <div class="testimonial-item text-center">
+            <img
+              class="img-fluid rounded-circle border border-2 p-2 mx-auto mb-4"
+              src="img/PROFILE/KRISNA.jpg"
+              style="width: 100px; height: 100px"
+            />
+            <div class="testimonial-text rounded text-center p-4">
+              <p>
+                Clita clita tempor justo dolor ipsum amet kasd amet duo justo
+                duo duo labore sed sed. Magna ut diam sit et amet stet eos sed
+                clita erat magna elitr erat sit sit erat at rebum justo sea
+                clita.
+              </p>
+              <h5 class="mb-1">Yudik Prananda</h5>
+              <span class="fst-italic">Mahasiswa INSTIKI</span>
+            </div>
+          </div> -->
+          <!-- <div class="testimonial-item text-center">
+            <img
+              class="img-fluid rounded-circle border border-2 p-2 mx-auto mb-4"
+              src="img/PROFILE/KRISNA.jpg"
+              style="width: 100px; height: 100px"
+            />
+            <div class="testimonial-text rounded text-center p-4">
+              <p>
+                Clita clita tempor justo dolor ipsum amet kasd amet duo justo
+                duo duo labore sed sed. Magna ut diam sit et amet stet eos sed
+                clita erat magna elitr erat sit sit erat at rebum justo sea
+                clita.
+              </p>
+              <h5 class="mb-1">Dhiyo Pranawa</h5>
+              <span class="fst-italic">Mahasiswa INSTIKI</span>
+            </div>
+          </div>
+          <div class="testimonial-item text-center">
+            <img
+              class="img-fluid rounded-circle border border-2 p-2 mx-auto mb-4"
+              src="img/testimonial-2.jpg"
+              style="width: 100px; height: 100px"
+            />
+            <div class="testimonial-text rounded text-center p-4">
+              <p>
+                Clita clita tempor justo dolor ipsum amet kasd amet duo justo
+                duo duo labore sed sed. Magna ut diam sit et amet stet eos sed
+                clita erat magna elitr erat sit sit erat at rebum justo sea
+                clita.
+              </p>
+              <h5 class="mb-1">Dewik Indria</h5>
+              <span class="fst-italic">Mahasiswa INSTIKI</span>
+            </div>
+          </div>
+          <div class="testimonial-item text-center">
+            <img
+              class="img-fluid rounded-circle border border-2 p-2 mx-auto mb-4"
+              src="img/testimonial-3.jpg"
+              style="width: 100px; height: 100px"
+            />
+            <div class="testimonial-text rounded text-center p-4">
+              <p>
+                Clita clita tempor justo dolor ipsum amet kasd amet duo justo
+                duo duo labore sed sed. Magna ut diam sit et amet stet eos sed
+                clita erat magna elitr erat sit sit erat at rebum justo sea
+                clita.
+              </p>
+              <h5 class="mb-1">Dila Oka</h5>
+              <span class="fst-italic">Mahasiswa INSTIKI</span>
+            </div>
+          </div>
+          <div class="testimonial-item text-center">
+            <img
+              class="img-fluid rounded-circle border border-2 p-2 mx-auto mb-4"
+              src="img/testimonial-3.jpg"
+              style="width: 100px; height: 100px"
+            />
+            <div class="testimonial-text rounded text-center p-4">
+              <p>
+                Clita clita tempor justo dolor ipsum amet kasd amet duo justo
+                duo duo labore sed sed. Magna ut diam sit et amet stet eos sed
+                clita erat magna elitr erat sit sit erat at rebum justo sea
+                clita.
+              </p>
+              <h5 class="mb-1">Selly Nanda</h5>
+              <span class="fst-italic">Mahasiswa INSTIKI</span>
+            </div>
+          </div>
+          <div class="testimonial-item text-center">
+            <img
+              class="img-fluid rounded-circle border border-2 p-2 mx-auto mb-4"
+              src="img/testimonial-3.jpg"
+              style="width: 100px; height: 100px"
+            />
+            <div class="testimonial-text rounded text-center p-4">
+              <p>
+                Clita clita tempor justo dolor ipsum amet kasd amet duo justo
+                duo duo labore sed sed. Magna ut diam sit et amet stet eos sed
+                clita erat magna elitr erat sit sit erat at rebum justo sea
+                clita.
+              </p>
+              <h5 class="mb-1">Agus Roy</h5>
+              <span class="fst-italic">Mahasiswa INSTIKI</span>
+            </div>
+          </div>
+          <div class="testimonial-item text-center">
+            <img
+              class="img-fluid rounded-circle border border-2 p-2 mx-auto mb-4"
+              src="img/testimonial-3.jpg"
+              style="width: 100px; height: 100px"
+            />
+            <div class="testimonial-text rounded text-center p-4">
+              <p>
+                Clita clita tempor justo dolor ipsum amet kasd amet duo justo
+                duo duo labore sed sed. Magna ut diam sit et amet stet eos sed
+                clita erat magna elitr erat sit sit erat at rebum justo sea
+                clita.
+              </p>
+              <h5 class="mb-1">Pande Agus</h5>
+              <span class="fst-italic">Mahasiswa INSTIKI</span>
+            </div>
+          </div>
+          <div class="testimonial-item text-center">
+            <img
+              class="img-fluid rounded-circle border border-2 p-2 mx-auto mb-4"
+              src="img/testimonial-3.jpg"
+              style="width: 100px; height: 100px"
+            />
+            <div class="testimonial-text rounded text-center p-4">
+              <p>
+                Clita clita tempor justo dolor ipsum amet kasd amet duo justo
+                duo duo labore sed sed. Magna ut diam sit et amet stet eos sed
+                clita erat magna elitr erat sit sit erat at rebum justo sea
+                clita.
+              </p>
+              <h5 class="mb-1">Zabdiel</h5>
+              <span class="fst-italic">Mahasiswa INSTIKI</span>
+            </div>
+          </div> -->
+        </div>
+      </div>
+    </div>
+    <!-- Testimonial End -->
+
+    <!-- Lokasi Pura -->
+    <div class="container-xxl py-10">
+      <div class="container">
+        <div
+          class="row g-3 mb-5 align-items-end wow fadeInUp"
+          data-wow-delay="0.1s"
+        >
+          <div class="col-lg-8">
+            <p><span class="text-primary me-2">#</span>Lokasi Pura Khayangan Jagat Ntegana</p>
+            <h1 class="display-20 mb-0">
+              <span class="text-primary">Lokasi</span> <br> Pura Khayangan Jagat
+            </h1>
+          </div>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63123.01138445045!2d115.1276834486328!3d-8.577894699999979!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd23fd69485c0ed%3A0x5a910932c062e645!2sPura%20kahyangan%20jagat%20NTEGANA!5e0!3m2!1sid!2sid!4v1708593514109!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          <!-- <div class="col-lg-6 text-lg-end">
+            <a class="btn btn-primary py-3 px-5" href=""
+              >More Gallery</a
+            >
+          </div> -->
+        </div>
+      </div>
+    </div>
+    <!-- Lokasi End -->
+
+    <!-- Footer Start -->
+    <div
+      class="container-fluid footer text-light footer mt-5 pt-5 wow fadeIn"
+      data-wow-delay="0.1s"
+    >
+      <div class="container py-5">
+        <div class="row g-5">
+          <div class="col-lg-5 col-md-6">
+            <h5 class="text-light mb-4">Alamat</h5>
+            <p class="mb-2">
+              <i class="fa fa-map-marker-alt me-3"></i>Desa Adat Tegal, Desa Darmabasa, Abiansemal, Badung
+            </p>
+            <p class="mb-2">
+              <i class="fa fa-phone-alt me-3"></i>+6285792576388
+            </p>
+            <p class="mb-2">
+              <i class="fa fa-envelope me-3"></i>khayanganjagatntegana@gmail.com
+            </p>
+            <div class="d-flex pt-2">
+              <a class="btn btn-outline-light btn-social" href=""
+                ><i class="fab fa-instagram"></i
+              ></a>
+              <a class="btn btn-outline-light btn-social" href=""
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+              <a class="btn btn-outline-light btn-social" href="https://youtu.be/EK3e6wa_x38?si=Z9Kmlm2nOyZjbJKx"
+                ><i class="fab fa-youtube"></i
+              ></a>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <h5 class="text-light mb-4">Link Terkait</h5>
+            <a class="btn btn-link" href="index.html">Beranda</a>
+            <a class="btn btn-link" href="keunikan.html">Keunikan</a>
+            <a class="btn btn-link" href="foto.html">Galeri</a>
+            <a class="btn btn-link" href="tentang.html">Tentang</a>
+          </div>
+          <!-- <div class="col-lg-3 col-md-6">
+            <h5 class="text-light mb-4">Popular Links</h5>
+            <a class="btn btn-link" href="">About Us</a>
+            <a class="btn btn-link" href="">Contact Us</a>
+            <a class="btn btn-link" href="">Our Services</a>
+            <a class="btn btn-link" href="">Terms & Condition</a>
+            <a class="btn btn-link" href="">Support</a>
+          </div> -->
+          <div class="col-lg-4 col-md-6">
+            <h5 class="text-light mb-4">Jelajah Virtual</h5>
+            <p>
+              Eksplorasi Pura Khayangan Jagat Ntegana Sekarang!
+            </p>
+            <a href="Virtual Tour.htm" class="btn btn-primary"
+                >Virtual Tour Now<i class="fa fa-arrow-right ms-2"></i>
+            </a>
+            <!-- <div class="position-relative mx-auto" style="max-width: 400px">
+              <input
+                class="form-control border-0 w-100 py-3 ps-4 pe-5"
+                type="text"
+                placeholder="Your email"
+              />
+              <button
+                type="button"
+                class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2"
+              >
+                SignUp
+              </button>
+            </div> -->
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="copyright">
+          <div class="row">
+            <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+              &copy; <a class="border-bottom" href="#">Pura Khayangan Jagat Ntegana</a>, All
+              Right Reserved 2024.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Footer End -->
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"
+      ><i class="bi bi-arrow-up"></i
+    ></a>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+  </body>
+</html>
